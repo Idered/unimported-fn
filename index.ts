@@ -1,7 +1,7 @@
 import { readPackage } from "read-pkg";
 import { CliArguments, Context } from "unimported";
 import simpleGit from "simple-git";
-import path from "node:path";
+import * as path from "node:path";
 import { processResults } from "unimported/dist/process.js";
 import {
   traverse,
